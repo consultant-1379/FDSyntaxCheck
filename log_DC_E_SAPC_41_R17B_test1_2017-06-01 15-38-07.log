@@ -1,0 +1,135 @@
+2017-06-01 15:38:15 INFO 	Syntax Verification for FD:DC_E_SAPC_41_R17B_test1
+
+2017-06-01 15:38:15 INFO 	In CoverSheet Sheet
+2017-06-01 15:38:15 SEVERE 	FD Name is Not matching with Coversheet Details. FD Name should be:DC_E_SAPC_41_R17B.xlsx.	But actual FD Name:DC_E_SAPC_41_R17B_test1.xlsx
+2017-06-01 15:38:15 INFO 	No of observations in CoverSheet:1
+2017-06-01 15:38:15 INFO 	End of CoverSheet Sheet
+
+2017-06-01 15:38:15 INFO 	In Interfaces Sheet
+2017-06-01 15:38:15 INFO 	Interfaces Sheet is Fine 
+2017-06-01 15:38:15 INFO 	End of Interfaces Sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Extension Sheet
+2017-06-01 15:38:15 WARNING In Universe Extension sheet UniverseExtName column value is Empty at row: 2
+2017-06-01 15:38:15 INFO 	No of observations in Universe Extension Sheet:1
+2017-06-01 15:38:15 INFO 	End of Universe Extension Sheet
+
+2017-06-01 15:38:15 INFO 	In Fact Tables sheet
+2017-06-01 15:38:15 SEVERE DC_E_SAPC_IPSECIPV4MEASURES and DC_E_SAPC_ELEMBH cannot have same vendor Id
+2017-06-01 15:38:15 SEVERE DC_E_SAPC_IPV6MEASURES and DC_E_SAPC_OSPROCESSINGLOGICALUNIT cannot have same vendor Id
+2017-06-01 15:38:15 INFO 	Fact Tables Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of FactTables Tab
+
+2017-06-01 15:38:15 INFO 	In Counters sheet
+2017-06-01 15:38:15 WARNING In Counters sheet Counter Description column value is having " (double quotes) or ::(double colon) in Table:DC_E_SAPC_LOGINMEASURES  for counter:tsp_login_FailureRate
+2017-06-01 15:38:15 WARNING In Counters sheet Counter Description column value is having " (double quotes) or ::(double colon) in Table:DC_E_SAPC_IPV6MEASURES  for counter:tsp_ipv6_ipv6IfStatsInAddrErrors
+2017-06-01 15:38:15 WARNING In Counters sheet Counter Description column value is having " (double quotes) or ::(double colon) in Table:DC_E_SAPC_SS7  for counter:tsp_m3_association_unavailable
+2017-06-01 15:38:15 WARNING In Counters sheet Counter Description column value is having " (double quotes) or ::(double colon) in Table:DC_E_SAPC_SS7  for counter:tsp_sctp_connection_success
+2017-06-01 15:38:15 WARNING In Counters sheet Counter Description column value is having " (double quotes) or ::(double colon) in Table:DC_E_SAPC_PLTFMEAS  for counter:DiskUsage
+2017-06-01 15:38:15 SEVERE 	In Counters sheet CounterName column value is not valid in Table:DC_E_SAPC_SAPC  Counter : GxRaasPendingTransaction 
+2017-06-01 15:38:15 SEVERE 	In Counters sheet CounterName column value is not valid in Table:DC_E_SAPC_SAPC  Counter : RxAuthIPCanNotAvailable 
+2017-06-01 15:38:15 SEVERE 	In Counters sheet Gauge  is not valid Counter type in table:DC_E_SAPC_PLTFMEAS  for counter:DicosRegulatedCpuLoad
+2017-06-01 15:38:15 SEVERE 	In Counters sheet Gauge  is not valid Counter type in table:DC_E_SAPC_PLTFMEAS  for counter:DicosMaxRegulatedCpuLoad
+2017-06-01 15:38:15 SEVERE 	In Counters sheet CounterName column value is not valid in Table:DC_E_SAPC_PLTFMEAS  Counter : DicosLowCpuLoad     
+2017-06-01 15:38:15 SEVERE 	In Counters sheet Gauge  is not valid Counter type in table:DC_E_SAPC_PLTFMEAS  for counter:DicosLowCpuLoad     
+2017-06-01 15:38:15 SEVERE 	In Counters sheet Gauge  is not valid Counter type in table:DC_E_SAPC_PLTFMEAS  for counter:DicosNormalCpuLoad
+2017-06-01 15:38:15 SEVERE 	In Counters sheet Gauge  is not valid Counter type in table:DC_E_SAPC_PLTFMEAS  for counter:DicosHighCpuLoad
+2017-06-01 15:38:15 INFO 	No of observations in Counters Sheet:13
+2017-06-01 15:38:15 INFO 	End of Counters sheet
+
+2017-06-01 15:38:15 INFO 	In Keys Sheet
+2017-06-01 15:38:15 INFO 	Keys Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Keys Sheet
+
+2017-06-01 15:38:15 INFO 	In Topology Tables sheet
+2017-06-01 15:38:15 INFO 	Topology Tables Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Topology Tables Sheet
+
+2017-06-01 15:38:15 INFO 	In Topology Keys sheet
+2017-06-01 15:38:15 INFO 	Topology Keys Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Topology Sheet
+
+2017-06-01 15:38:15 INFO 	In Transformations Sheet
+2017-06-01 15:38:15 INFO 	Transformations Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Transformations Sheet
+
+2017-06-01 15:38:15 INFO 	Transformation verification Details:
+2017-06-01 15:38:15 INFO  	Following list has parser support is there in  Fact Tables sheet.but transformation support is not found
+2017-06-01 15:38:15 WARNING Table:DC_E_SAPC_OSPROCESSINGUNIT is having support for parser:mdc in fact tables.but in transformations support is not found
+2017-06-01 15:38:15 WARNING Table:DC_E_SAPC_OSPROCESSINGSOCKETUNIT is having support for parser:mdc in fact tables.but in transformations support is not found
+2017-06-01 15:38:15 WARNING Table:DC_E_SAPC_OSPROCESSINGLOGICALUNIT is having support for parser:mdc in fact tables.but in transformations support is not found
+2017-06-01 15:38:15 WARNING Table:DC_E_SAPC_IPV6MEASURES is having support for parser:3gpp32435 in fact tables.but in transformations support is not found
+2017-06-01 15:38:15 INFO 	No of observations in Transformation Verification:4
+2017-06-01 15:38:15 INFO 	End of Transformation verification 
+
+2017-06-01 15:38:15 INFO 	In DataFormat Sheet
+2017-06-01 15:38:15 INFO 	Data Format Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Data Format Sheet
+
+2017-06-01 15:38:15 INFO 	In Vectors Sheet
+2017-06-01 15:38:15 INFO 	Vectors Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Vectors Sheet
+
+2017-06-01 15:38:15 INFO 	In BH Sheet
+2017-06-01 15:38:15 INFO 	BH Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of BH Sheet
+
+2017-06-01 15:38:15 INFO 	In BHRankKeys Sheet
+2017-06-01 15:38:15 INFO 	BHRankKeys Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of BHRankKeys Sheet
+
+2017-06-01 15:38:15 INFO 	In External Statement Sheet
+2017-06-01 15:38:15 INFO 	External Statement Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of External Statement sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Topology Tables sheet
+2017-06-01 15:38:15 INFO 	Universe Topology Tables Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Universe Topology Tables Sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Class sheet
+2017-06-01 15:38:15 INFO 	Universe Class Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Universe Class Sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Topology Objects sheet
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:SAPC Id
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:SAPC Version
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:Site
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:NEDN
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:SAPC Type
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:SAPC Name
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SAPC  UnvObject:OSS Id
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Time Zone with DST
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:DST
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:OSS Id
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Time Zone
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Site FDN
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Site Name
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Site Id
+2017-06-01 15:38:15 WARNING In Universe Topology Objects sheet Universe Aggregation column value should be 'None' in UnvClass:SITE  UnvObject:Site
+2017-06-01 15:38:15 INFO 	No of observations in Universe Topology Objects Sheet:15
+2017-06-01 15:38:15 INFO 	End of Universe Topology Objects Sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Conditions sheet
+2017-06-01 15:38:15 INFO 	Universe Conditions sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Universe Conditions Sheet
+
+2017-06-01 15:38:15 INFO 	In Universe Joins sheet
+2017-06-01 15:38:15 INFO 	Universe Joins Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of UniverseJoins Sheet
+
+2017-06-01 15:38:15 INFO 	In Report objects sheet
+2017-06-01 15:38:15 INFO 	Report objects Sheet  is Fine
+2017-06-01 15:38:15 INFO 	End of Report objects Sheet
+
+2017-06-01 15:38:15 INFO 	In Report conditions sheet
+2017-06-01 15:38:15 INFO 	Report Conditions Sheet is Fine
+2017-06-01 15:38:15 INFO 	End of Report conditions Sheet
+
+2017-06-01 15:38:15 INFO 	No of observations in each sheet as follows
+2017-06-01 15:38:15 INFO 	No of Observations:1 in Universe Extension Sheet
+2017-06-01 15:38:15 INFO 	No of Observations:15 in Universe Topology Objects Sheet
+2017-06-01 15:38:15 INFO 	No of Observations:1 in CoverSheet Sheet
+2017-06-01 15:38:15 INFO 	No of Observations:4 in TransformationsVerification
+2017-06-01 15:38:15 INFO 	No of Observations:13 in Counters Sheet
+2017-06-01 15:38:15 INFO 	Syntax Verification for FD:DC_E_SAPC_41_R17B_test1 is Finished 
+
